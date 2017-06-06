@@ -77,12 +77,10 @@
             <mutator>INLINE_CONSTS</mutator>
           </mutators>
           <targetClasses>
-            <param>com.example.pitest.levenshtein*</param>
-            <!--<param>com.example.pitest.analyzers.*</param>-->
+            <param>com.example.pitest*</param>
           </targetClasses>
           <targetTests>
-            <param>com.example.pitest.levenshtein*</param>
-            <!--<param>com.example.pitest.analyzers.*</param>-->
+            <param>com.example.pitest*</param>
           </targetTests>
         </configuration>
       </plugin>
